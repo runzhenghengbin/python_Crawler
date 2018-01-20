@@ -11,7 +11,7 @@ else:
     os.mkdir('image')
 i = 0
 for page in range(1,50):
-    url = 'http://desk.zol.com.cn/1920x1080/'+str(page)+'.html'
+    url = 'http://desk.zol.com.cn/fengjing/weimeiyijing/'+str(page)+'.html'
     #print(url)
     r = requests.get(url)
     contents = r.text
